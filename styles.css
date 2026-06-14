@@ -1,2 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-/* Your CSS Code here. */
+body {
+    min-height: 100vh;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #1f2937;
+}
+
+table {
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 28px;
+}
+
+thead {
+    background: #2563eb;
+    color: #fff;
+}
+
+th,
+td {
+    padding: 12px 28px;
+    text-align: left;
+    border: 1px solid #e5e7eb;
+}
+
+tbody tr:nth-child(even) {
+    background: #f9fafb;
+}
+
+h2 {
+    margin-bottom: 16px;
+    color: #111827;
+}
+
+ol {
+    padding-left: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+ol li {
+    background: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    max-width: 420px;
+}
+
+img,
+video,
+audio {
+    display: block;
+    max-width: 100%;
+    border-radius: 6px;
+}
